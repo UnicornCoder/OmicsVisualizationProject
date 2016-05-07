@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+    <script type="text/javascript" src="autoDropDown.js"></script>
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+    <script src="Project.js" type="text/javascript"></script>
+  </head>
+
+  <body>
+  <div id="regions_div" style="width: 900px; height: 500px;"></div>
+  </body>
+  <form action="#" method="post" id="Form" class="Form">
+    <fieldset>
+        <legend>Select disease/trait</legend>
+    
+        <select name="Type", id="Type">
+            <option value="Type">----Select Type----</option>
+            <option value="Addiction">Addiction</option>
+            <option value="Autoinmune">Autoinmune</option>
+            <option value="Cancer">Cancer</option> 
+            <option value="Cardiovascular">Cardiovascular</option> 
+            <option value="Female">Female</option> 
+            <option value="Gastrointestinal">Gastrointestinal</option> 
+            <option value="Genetic">Genetic</option> 
+            <option value="Neurodegenerative">Neurodegenerative</option>
+            <option value="Neurophysiological">Neurophysiological</option>
+            <option value="Neurophysiological_Trait">Neurophysiological Trait</option>
+            <option value="Other">Other</option>
+        </select>
+        
+        <select name="Disease" id="Disease">
+            <!-- populated using JavaScript -->
+        </select>
+    </fieldset>
+</form>
+</html>
