@@ -39,7 +39,7 @@ function setup(){
   var data = google.visualization.arrayToDataTable([['Country', 'Risk'], ['-','-']]);
 
   var options = {
-    colorAxis: {colors: ['green', 'yellow', 'red']},
+    colorAxis: {colors: ['green', 'white', 'purple']},
     backgroundColor: '#81d4fa',
     datalessRegionColor: 'white',
     defaultColor: '#f5f5f5',
@@ -269,7 +269,7 @@ function drawRegionsMap() {
     var data = google.visualization.arrayToDataTable(array);
 
     var options = {
-      colorAxis: {colors: ['green', 'white', 'purple']}, //Colorblind friendly divergent scale
+      colorAxis: {colors: ['green', '#ece7f2', 'purple']}, //Colorblind friendly divergent scale
       backgroundColor: '#81d4fa',
       datalessRegionColor: 'white',
       defaultColor: '#f5f5f5',
